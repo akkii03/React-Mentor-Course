@@ -8,7 +8,7 @@ const App = ({slides}) => {
   return (
         <div>
          <div id='slide'>
-           <h1 data-testid="title">{index} : {slides[index].title}</h1>
+           <h1 data-testid="title">{slides[index].sr}: {slides[index].title}</h1>
            <p data-testid="text">{slides[index].text}</p>
          </div>
          <div id='navigation'>
